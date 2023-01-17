@@ -33,4 +33,16 @@
         tools:layout="@layout/fragment_second_"
         android:layout_below="@id/fragmentContainerView"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_switchFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragmentContainerView2"
+        android:layout_centerInParent="true"
+        android:text="@string/click_here"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:background="@color/bg_btn"/>
+
 </RelativeLayout>
